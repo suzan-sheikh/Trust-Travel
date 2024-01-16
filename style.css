@@ -341,13 +341,13 @@ header label {
   gap: 24px;
 }
 
-.chose-section h3{
+.chose-section h3, .image-card h3{
   color: #131318;
   font-size: 1.5rem;
   font-weight: 800;  
   margin: 24px 0px;
 }
-.chose-section p{
+.chose-section p, .image-card p{
   color: #5A5A5D;
   font-size: 1rem;
   font-weight: 400;
@@ -376,10 +376,84 @@ header label {
 }
 /* Why Choose Us sec end */
 
+/* Deal & Discounts section start */
+/* .image-card-area{
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+.image-card-area img{
+  width: 100%;
+}
+.image-card{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.image-card{
+  width: 560px;
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  padding: 45px;
+}
+.dinamic-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.dynamic-icon{
+  display: flex;
+  justify-content: start;
+  gap: 5px;
+  align-items: center;
+}
+.dynamic-icon i{
+  color: #FF5400;
+  font-size: 20px;
+}
+
+.pricce{
+  color: #FF5400;
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 20px 0px;
+} */
+
+/* Deal & Discounts section end */
 
 
+/* video section start */
 
-
+.video-sec{
+  margin: 85px 0px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.video-content-area{
+  width: 40%;
+  border-radius: 16px;
+}
+.video-area{
+  width: 60%;  
+}
+.video-area iframe{
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+.video-content-area ul li{
+  margin-left: 20px;
+  font-weight: 800;
+}
+.btn{
+  padding: 10px 30px;
+  font-size: 1rem;
+}
+/* video section end */
 
 
 
@@ -553,9 +627,46 @@ header label {
   width: 100%;
 }
 
+/* Deal & Discounts section start */
 
 
 
+
+/* Deal & Discounts section end */
+ 
+
+
+/* video section start */
+
+.video-sec{
+  margin-top: 20px;
+  flex-direction: column;
+  gap: 16px;
+}
+.video-content-area{
+  width: 100%;
+}
+.video-area{
+  width: 100%;
+}
+.video-content-area h2{
+  font-size: 1.50rem;
+  width: 65%;
+  margin: 16px 0px;
+}
+.video-content-area p{
+  margin: 0;
+}
+.video-content-area ul li{
+  font-size: 0.85rem;
+  text-align: justify;
+  margin: 10px;
+  margin-left: 20px;
+}
+
+
+
+/* video section end */
 
 
 }

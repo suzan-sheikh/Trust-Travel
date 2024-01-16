@@ -377,52 +377,156 @@ header label {
 /* Why Choose Us sec end */
 
 /* Deal & Discounts section start */
-/* .image-card-area{
+.discount-section{
   width: 100%;
   position: relative;
-  margin-bottom: 20px;
 }
-.image-card-area img{
+.discount-section img{
   width: 100%;
 }
-.image-card{
-  position: absolute;
-  top: 50%;
-  left: 70%;
-  transform: translate(-50%, -50%);
+.discount-wrapper{
+  margin-bottom: 24px;
 }
-
-.image-card{
-  width: 560px;
+.discount-content{
+  max-width: 50%;
+  /* height: 400px; */
+  right: 30px;
+  bottom: 60px;
+  position: absolute; 
   border-radius: 16px;
   border: 2px solid #FFF;
   background: rgba(255, 255, 255, 0.80);
-  padding: 45px;
+  padding: 30px;
 }
+
+.secont-section{
+  left: 30px;
+  bottom: 60px;
+}
+
 .dinamic-section{
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .dynamic-icon{
   display: flex;
-  justify-content: start;
   gap: 5px;
+  justify-content: center;
   align-items: center;
 }
 .dynamic-icon i{
-  color: #FF5400;
   font-size: 20px;
+  color: #FF5400;
+}
+
+.discount-content h3{
+  font-size: 30px;
+  margin: 20px 0px;
+}
+.discount-content p{
+  margin: 30px 0px;
+  color: #5A5A5D;
+  font-size: 16px;
 }
 
 .pricce{
   color: #FF5400;
-  font-size: 1.25rem;
-  font-weight: 800;
   margin: 20px 0px;
-} */
-
+}
 /* Deal & Discounts section end */
+
+/*---------extra section start----------------*/
+
+.wrapper .extra-sec {
+  text-align: center;
+  padding: 2% 0;
+}
+.extra-sec h1 {
+  font-size: 35px
+  padding-top: 15px;
+  color: #454545;
+}
+.extra-sec p {
+  color: #454545;
+  margin-top: 10px;
+}
+.wrapper .card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: wrap row;
+  margin: 0 auto;
+  text-align: center;
+  background: #f9f9ff;
+  margin-top: 40px;
+  overflow: hidden;
+}
+.wrapper .card .card1 {
+  width: 300px;
+  height: 525px;
+  padding: px;
+  position: relative;
+  border-radius: 10px;
+  margin: 20px 5px;
+}
+
+.card1 input {
+  padding: 10px 85px;
+  color: #000;
+  background: #fff;
+  outline: none;
+  border: 1px solid #ffffff;
+  font-size: 15px;
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+  left: 32px;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  display: none;
+}
+.card1 h2 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.card1 p {
+  color: #454545;
+}
+.wrapper .card .card1:hover {
+  background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%);
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.05);
+}
+.wrapper .card .card1:hover input {
+  display: flex;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.card1:hover h1 {
+  border: 34px solid #97c5fe;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  background: #7fb4fd;
+}
+.card1:hover h2,
+p {
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+}
+.card1:hover p {
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+}
+
+/*---------extra section end----------------*/
 
 
 /* video section start */
@@ -744,6 +848,94 @@ hr {
 }
 
 /* Deal & Discounts section start */
+.discount-section{
+  width: 100%;
+  height: 600px;
+}
+.discount-section img{
+  width: 100%;
+  height: 100%;
+}
+
+.discount-content{
+  max-width: 100%;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+}
+
+.discount-content h3{
+  font-size: 18px;
+  margin: 10px 0px;
+}
+.discount-content p{
+  margin: 10px 0px;
+  font-size: 16px;
+}
+
+.pricce{
+  color: #FF5400;
+  margin:24px 0px;
+}
+.dynamic-icon{
+  gap: 2px;
+}
+/* Deal & Discounts section start */
+.image-card-area{
+  width: 100%;
+  height: 800px;
+  border: 2px solid red;
+}
+.image-card-area img{
+  width: 100%;
+  height: 100%;
+}
+.image-card{
+  position: absolute;
+  bottom: 20px;
+  right: 10px;  
+  width: 50%;
+}
+
+.image-card{
+
+}
+.dinamic-section{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.dynamic-icon{
+  display: flex;
+  justify-content: start;
+  gap: 5px;
+  align-items: center;
+}
+.dynamic-icon i{
+  color: #FF5400;
+  font-size: 20px;
+}
+
+.pricce{
+  color: #FF5400;
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 20px 0px;
+} 
+
+/* Deal & Discounts section end */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

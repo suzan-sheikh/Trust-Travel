@@ -673,7 +673,327 @@ hr {
 
 
 
-/* Large devices (desktops, 992px and up) */
+
+
+/* Large devices (991px to 599px) */
+
+@media screen and (max-width: 991px) and (min-width: 599px) {
+  header {
+    padding: 20px;
+  }
+  header label {
+    display: initial;
+  }
+  /* ************************* */
+
+  .logo h2 {
+    font-size: 21px;
+  }
+
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+
+  header .navbar ul li {
+    width: 100%;
+  }
+  header .navbar ul li ul {
+    position: relative;
+    width: 100%;
+  }
+
+  header .navbar ul li ul li {
+    background: #eee;
+  }
+  header .navbar ul li ul li ul {
+    width: 100%;
+    left: 0;
+  }
+  #menu_bar:checked ~ .navbar {
+    display: initial;
+  }
+
+  /* banner section */
+
+  .banner-section h2 {
+    font-size: 25px;
+    margin-bottom: 8px;
+    padding-top: 32px;
+  }
+
+  .banner-section p{
+    color: #fff;
+    font
+  }
+  .button-area form {
+    width: 80%;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    align-items: center;
+  }
+
+  .search-area, .type, .search-bar{
+    width: 100%;
+  }
+
+  .input-box{
+    width: 100%;
+    padding: 16px;
+    margin: 0 auto;    
+  }
+
+  .search-bar{
+    width: 100%;
+    padding: 16px; 
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  /* popular section */
+  .popular-sec{
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .content-area{
+    width: 100%;
+  }
+  .img-area{
+    width: 100%;
+  }
+  .content-area h2{
+    font-size: 1.50rem;
+  }
+  .content-area p, .content-area ul li{
+    font-size: 0.85rem;
+    text-align: justify;
+  }
+
+  /* destination section*/
+
+  .destination-section{
+    margin-top: 24px;
+  }
+
+  .heading-two{
+    color: #131318;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .heading-p{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 24px;
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .destination-image-area{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 20px;
+  }
+  
+  .area1, .area2, .area3, .area4, .area5, .area6, .area7 {
+    grid-column: 1/-1;
+    grid-row: auto;
+  }
+
+/* Why Choose Us sec */
+.chose-section{
+  margin: 24px 0px;
+}
+.card-one{
+  gap: 16px;
+  flex-direction: column;
+}
+
+.chose-section h3{
+  font-size: 1.2rem; 
+  margin: 16px 0px;
+}
+.chose-section p{
+  font-size: 14px;
+}
+.card3{
+  width: 100%;
+}
+
+/* Deal & Discounts section start */
+.discount-section{
+  width: 100%;
+  height: 600px;
+}
+.discount-section img{
+  width: 100%;
+  height: 100%;
+}
+
+.discount-content{
+  max-width: 100%;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+}
+
+.discount-content h3{
+  font-size: 18px;
+  margin: 10px 0px;
+}
+.discount-content p{
+  margin: 10px 0px;
+  font-size: 16px;
+}
+
+.pricce{
+  color: #FF5400;
+  margin:24px 0px;
+}
+.dynamic-icon{
+  gap: 2px;
+}
+/* Deal & Discounts section start */
+.image-card-area{
+  width: 100%;
+  height: 800px;
+  border: 2px solid red;
+}
+.image-card-area img{
+  width: 100%;
+  height: 100%;
+}
+.image-card{
+  position: absolute;
+  bottom: 20px;
+  right: 10px;  
+  width: 50%;
+}
+
+.image-card{
+
+}
+.dinamic-section{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.dynamic-icon{
+  display: flex;
+  justify-content: start;
+  gap: 5px;
+  align-items: center;
+}
+.dynamic-icon i{
+  color: #FF5400;
+  font-size: 20px;
+}
+
+.pricce{
+  color: #FF5400;
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 20px 0px;
+} 
+
+/* Deal & Discounts section end */
+
+/* video section start */
+
+.video-sec{
+  margin: 20px 0px;
+  flex-direction: column;
+  gap: 16px;
+}
+.video-content-area{
+  width: 100%;
+}
+.video-area{
+  width: 100%;
+  height: 300px;
+}
+
+.video-area iframe{
+  width: 100%;
+  height: 100%;
+}
+.video-content-area h2{
+  font-size: 1.50rem;
+  width: 65%;
+  margin: 16px 0px;
+}
+.video-content-area p{
+  margin: 0;
+}
+.video-content-area ul li{
+  font-size: 0.85rem;
+  text-align: justify;
+  margin: 10px;
+  margin-left: 20px;
+}
+/* video section end */
+
+/* newsletter section start */
+.newsletter{
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.sub-image-area, .sebscribe-area{
+  width: 100%;
+}
+.sebscribe-area{
+  padding: 20px;
+}
+.sebscribe-area h2{
+  margin: 10px 0px;
+  color: #000;
+}
+.sebscribe-area {
+  padding: 15px;
+}
+
+/* newsletter section end */
+
+/* footer section start */
+.footer-wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer-wrapper p{
+  margin: 10px 0px;
+}
+.solical-area{
+  gap: 10px;
+}
+.solical-area i{
+  margin-top: 10px;
+}
+
+.footer-wrapper hr {
+  margin: 20px 0px;
+}
+.footer-container{
+  padding: 33px 0px;
+}
+
+/* footer section end */
+
+}
+
+
+
+
+
+/* small devices (desktops, 992px and up) */
 
 @media screen and (max-width: 600px) {
   header {
@@ -987,7 +1307,5 @@ hr {
 
 }
 /* Mobile menu area end */
-
-
 
 /* 💛💛💚💗Thank you very much sir for viewing my assignment💗💚💛💛 */

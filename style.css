@@ -70,9 +70,6 @@
   width: 440px;
   margin: 40px auto;
 }
-
-
-
 /* common design end */
 
 /* header area start */
@@ -528,7 +525,6 @@ p {
 
 /*---------extra section end----------------*/
 
-
 /* video section start */
 
 .video-sec{
@@ -560,7 +556,6 @@ p {
 /* video section end */
 
 /* newsletter section start */
-
 .newsletter{
   display: flex;
   justify-content: space-between;
@@ -615,7 +610,6 @@ hr {
 .sub-image-area img{
   width: 100%;
 }
-
 .save{
   right: 30px;
   bottom: 60px;
@@ -645,7 +639,6 @@ hr {
   align-items: center;
   gap: 10px;
 }
-
 .footer-wrapper p{
   text-align: center;
   font-size: 1rem;
@@ -669,29 +662,13 @@ hr {
   transition: all ease 0.3s;
 }
 
-
 .footer-wrapper hr {
   height: 1px;
   background: rgba(19, 19, 24, 0.10);
   border: none;
   margin: 50px 0px;
 }
-
 /* footer section end */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -925,25 +902,6 @@ hr {
 
 /* Deal & Discounts section end */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Deal & Discounts section end */
- 
-
-
 /* video section start */
 
 .video-sec{
@@ -996,8 +954,6 @@ hr {
 /* newsletter section end */
 
 /* footer section start */
-
-
 .footer-wrapper{
   width: 100%;
   margin: 0 auto;
@@ -1023,5 +979,8 @@ hr {
 /* footer section end */
 
 }
-
 /* Mobile menu area end */
+
+
+
+/* 💛💛💚💗Thank you very much sir for viewing my assignment💗💚💛💛 */

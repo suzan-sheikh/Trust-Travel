@@ -199,6 +199,12 @@ header label {
   gap: 2px;
   color: rgba(19, 19, 24, 0.5);
 }
+.search-area input{
+  cursor: pointer;
+}
+.type select{
+  cursor: pointer;
+}
 .input-box {
   width: 120px;
   border: none;

@@ -8,7 +8,6 @@
 /*-----universal selector end 💟-----*/
 
 /*-----common design start -----*/
-
 .container {
   width: 85%;
   max-width: 1440px;
@@ -20,14 +19,12 @@
   color: #fff;
   text-align: center;
 }
-
 .title-description {
   font-size: 1rem;
   color: #fff;
   text-align: center;
   color: #fff;
 }
-
 .sec-description{
   font-size: 1rem;
   color: rgba(19, 19, 24, 0.70);
@@ -36,14 +33,12 @@
   margin-bottom: 24px;
   margin-top: 24px;
 }
-
 .headding-title{
   font-size: 2.5rem;
   color: #131318;
   font-weight: 800;
   margin-bottom: 20px;
 }
-
 .btn-primary{
   border-radius: 8px;
   background: #FF5400;
@@ -53,6 +48,10 @@
   padding: 10px 20px;
   font-size: 20px;
   color: #fff;
+  transition: all ease 1s;
+}
+.btn-primary:hover{
+  background: #065fd4;
 }
 .heading-two{
   color: #131318;
@@ -69,6 +68,10 @@
   line-height: 26px;
   width: 440px;
   margin: 40px auto;
+}
+.footer-logo a, .solical-area a, .logo a{
+  text-decoration: none;
+  color: #000;
 }
 /* common design end */
 
@@ -90,6 +93,7 @@ header {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 /* logo area start  */
 header .logo {
   display: flex;
@@ -97,7 +101,6 @@ header .logo {
   cursor: pointer;
   align-items: center;
 }
-
 .logo h2 {
   font-size: 2rem;
   color: #333;
@@ -115,7 +118,6 @@ header .navbar ul li {
   position: relative;
   float: left;
 }
-
 header .navbar ul li a {
   padding: 16px;
   font-size: 1.25rem;
@@ -123,7 +125,6 @@ header .navbar ul li a {
   display: block;
   text-decoration: none;
 }
-
 header .navbar ul li a:hover {
   background-color: #ff5400;
   color: #fff;
@@ -145,12 +146,10 @@ header .navbar ul li ul li ul {
   left: 200px;
   top: 0;
 }
-
 header .navbar ul li:focus-within > ul,
 header .navbar ul li:hover > ul {
   display: initial;
 }
-
 #menu_bar {
   display: none;
 }
@@ -180,14 +179,12 @@ header label {
 .button-area {
   padding-bottom: 84px;
 }
-
 .banner-section p {
   width: 70%;
   margin: 0 auto;
   margin-bottom: 40px;
   color: #fff;
 }
-
 .button-area {
   color: rgba(19, 19, 24, 0.5);
 }
@@ -202,7 +199,6 @@ header label {
   gap: 2px;
   color: rgba(19, 19, 24, 0.5);
 }
-
 .input-box {
   width: 120px;
   border: none;
@@ -210,7 +206,6 @@ header label {
   padding: 10px;
   border-radius: 5px;
 }
-
 .search-bar {
   width: 100px;
   background: #ff5400;
@@ -218,12 +213,11 @@ header label {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  cursor: pointer;
 }
-
 .type option {
   color: rgba(19, 19, 24, 0.5);
 }
-
 .search-bar input {
   border: none;
   outline: none;
@@ -231,15 +225,12 @@ header label {
   cursor: pointer;
   color: #fff;
 }
-
 .fa-magnifying-glass {
   color: #fff;
 }
-
 /* banner section end */
 
 /* popular section start */
-
 .popular-sec{
   margin-top: 85px;
   display: flex;
@@ -255,28 +246,29 @@ header label {
 .img-area img{
   width: 100%;
 }
-
 .popular-sec .content-area ul li{
   margin-left: 20px;
 }
-
 /* popular section end */
 
 /* destination section start */
 .destination-section{
   margin-top: 80px;
 }
-
 .img-container{
   width: 100%;
   height: auto;
   position: relative;
+  cursor: pointer;
 }
-
 .img-container img{
-  width: 100%;
-} 
-
+  width: 100%;  
+  transition: all 0.5s ease-in-out;
+}
+.img-container img:hover{
+  transform: scale(1.05);
+  overflow: hidden;
+}
 .destanation-image-text{
   position: absolute;
   top: 50%;
@@ -289,19 +281,16 @@ header label {
   font-weight: 800;
   text-align: center;
 }
-
 .destination-image-area{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 24px;
 }
-
 .area1{
   grid-column: 1/ 7;
   grid-row: 1/2;
 }
-
 .area2{
   grid-column: 7/ -1;
   grid-row: 1/2;
@@ -337,7 +326,6 @@ header label {
   justify-content: space-between;
   gap: 24px;
 }
-
 .chose-section h3, .image-card h3{
   color: #131318;
   font-size: 1.5rem;
@@ -349,13 +337,12 @@ header label {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
-  }
-
-.card1, .card2, .card3{
+}
+.cardone, .card2, .card3{
   border-radius: 16px;
   padding: 32px;
 }
-.card1{
+.cardone{
   border: 1px solid rgba(251, 181, 99, 0.20);
   background: rgba(251, 181, 99, 0.05);
 }
@@ -395,12 +382,10 @@ header label {
   background: rgba(255, 255, 255, 0.80);
   padding: 30px;
 }
-
 .secont-section{
   left: 30px;
   bottom: 60px;
 }
-
 .dinamic-section{
   display: flex;
   justify-content: start;
@@ -408,7 +393,6 @@ header label {
   flex-wrap: wrap;
   gap: 10px;
 }
-
 .dynamic-icon{
   display: flex;
   gap: 5px;
@@ -419,7 +403,6 @@ header label {
   font-size: 20px;
   color: #FF5400;
 }
-
 .discount-content h3{
   font-size: 30px;
   margin: 20px 0px;
@@ -429,7 +412,6 @@ header label {
   color: #5A5A5D;
   font-size: 16px;
 }
-
 .pricce{
   color: #FF5400;
   margin: 20px 0px;
@@ -437,10 +419,21 @@ header label {
 /* Deal & Discounts section end */
 
 /*---------extra section start----------------*/
-
 .wrapper .extra-sec {
   text-align: center;
   padding: 2% 0;
+  background: url(./Images/mash.png);
+  background-size: 100% 100%;
+  background-position: center center;
+  border-radius: 10px;
+  margin-bottom: 20px;  
+  transition: all ease-in-out 1s;
+}
+.wrapper .extra-sec:hover {
+  background: url(./Images/mhover.png);
+}
+.wrapper .card:hover{
+  background: url(./Images/mhover.png);
 }
 .extra-sec h1 {
   font-size: 35px
@@ -461,27 +454,37 @@ header label {
   margin: 0 auto;
   text-align: center;
   background: #f9f9ff;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   overflow: hidden;
+  background: url(./Images/mash2.png);
+  background-size: 100% 100%;
+  background-position: center;
+  border-radius: 10px;
+  padding: 50px;
+  margin-bottom: 50px;  
+  transition: all ease-in-out 1s;
 }
 .wrapper .card .card1 {
   width: 300px;
   height: 525px;
-  padding: px;
+  padding: 5px;
   position: relative;
   border-radius: 10px;
-  margin: 20px 5px;
+  margin: 10px 5px;
+  box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.75);
 }
-
+.card1 h1{
+  margin-top: 50px;
+}
 .card1 input {
-  padding: 10px 85px;
+  padding: 10px 65px;
   color: #000;
   background: #fff;
   outline: none;
   border: 1px solid #ffffff;
   font-size: 15px;
   position: absolute;
-  bottom: 40px;
+  bottom: 20px;
   right: 20px;
   left: 32px;
   color: #000;
@@ -495,10 +498,10 @@ header label {
   margin-bottom: 10px;
 }
 .card1 p {
-  color: #454545;
+  color: #000;
 }
 .wrapper .card .card1:hover {
-  background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%);
+  background: linear-gradient(40deg, #8490ff63 40%, #62bcfc5b 100%);
   transition: all 0.5s ease-in-out;
   transform: scale(1.05);
 }
@@ -507,11 +510,14 @@ header label {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
+.wrapper .card .card1:hover h1{
+  font-size: 2rem;
+}
 .card1:hover h1 {
-  border: 34px solid #97c5fe;
+  border: 34px solid #97c5fe61;
   transition: all 0.3s ease-in-out;
   color: #fff;
-  background: #7fb4fd;
+  background: #7fb3fdb1;
 }
 .card1:hover h2,
 p {
@@ -522,11 +528,9 @@ p {
   transition: all 0.3s ease-in-out;
   color: #fff;
 }
-
 /*---------extra section end----------------*/
 
 /* video section start */
-
 .video-sec{
   margin: 85px 0px;
   display: flex;
@@ -548,6 +552,7 @@ p {
 .video-content-area ul li{
   margin-left: 20px;
   font-weight: 800;
+  color: #000;
 }
 .btn{
   padding: 10px 30px;
@@ -599,10 +604,14 @@ hr {
   font-size: 1rem;
   color: rgba(19, 19, 24, 0.30);
 }
-
 .input-filed :nth-child(3){
   background: #FF5400;
   color: #fff;
+  cursor: pointer;  
+  transition: all ease 0.5s;
+}
+.input-filed :nth-child(3):hover{
+  background: #000;
 }
 .sub-image-area{
   width: 65%;
@@ -621,11 +630,9 @@ hr {
   padding: 20px;
   color: #fff;
 }
-
 /* newsletter section end */
 
 /* footer section start */
-
 .footer-container{
   background: rgba(19, 19, 24, 0.05);
   padding: 100px 0px;
@@ -662,7 +669,6 @@ hr {
   color: #FF5400;
   transition: all ease 0.3s;
 }
-
 .footer-wrapper hr {
   height: 1px;
   background: rgba(19, 19, 24, 0.10);
@@ -671,13 +677,12 @@ hr {
 }
 /* footer section end */
 
-
-
-
+/*------------------------------ media query section start------------------------------ */
+/*------------------------------ media query for large and medium devices section start------------------------------ */
 
 /* Large devices (991px to 599px) */
-
-@media screen and (max-width: 991px) and (min-width: 599px) {
+@media screen and (max-width: 991px) and (min-width: 601px) {
+    
   header {
     padding: 20px;
   }
@@ -685,11 +690,9 @@ hr {
     display: initial;
   }
   /* ************************* */
-
   .logo h2 {
     font-size: 21px;
   }
-
   header .navbar {
     position: absolute;
     top: 100%;
@@ -699,7 +702,6 @@ hr {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     display: none;
   }
-
   header .navbar ul li {
     width: 100%;
   }
@@ -707,7 +709,6 @@ hr {
     position: relative;
     width: 100%;
   }
-
   header .navbar ul li ul li {
     background: #eee;
   }
@@ -718,18 +719,20 @@ hr {
   #menu_bar:checked ~ .navbar {
     display: initial;
   }
+  /* btn primary */
+  .btn-primary{
+    width: 100%;
+  }
+  /* btn primary */
 
-  /* banner section */
-
+  /* banner section start */
   .banner-section h2 {
     font-size: 25px;
     margin-bottom: 8px;
     padding-top: 32px;
   }
-
   .banner-section p{
     color: #fff;
-    font
   }
   .button-area form {
     width: 80%;
@@ -738,17 +741,14 @@ hr {
     padding: 16px;
     align-items: center;
   }
-
   .search-area, .type, .search-bar{
     width: 100%;
   }
-
   .input-box{
     width: 100%;
     padding: 16px;
-    margin: 0 auto;    
+    margin: 0 auto; 
   }
-
   .search-bar{
     width: 100%;
     padding: 16px; 
@@ -756,8 +756,9 @@ hr {
     justify-content: center;
     gap: 5px;
   }
+  /* banner section end */
 
-  /* popular section */
+  /* popular section start */
   .popular-sec{
     margin-top: 20px;
     flex-direction: column;
@@ -775,13 +776,12 @@ hr {
     font-size: 0.85rem;
     text-align: justify;
   }
+  /* popular section end */
 
-  /* destination section*/
-
+  /* destination section start*/
   .destination-section{
     margin-top: 24px;
   }
-
   .heading-two{
     color: #131318;
     font-size: 1.5rem;
@@ -794,208 +794,191 @@ hr {
     width: 80%;
     margin: 20px auto;
   }
-
   .destination-image-area{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: 20px;
   }
-  
-  .area1, .area2, .area3, .area4, .area5, .area6, .area7 {
+    .area1, .area2, .area3, .area4, .area5, .area6, .area7 {
     grid-column: 1/-1;
     grid-row: auto;
   }
+  /* destination section end*/
 
-/* Why Choose Us sec */
-.chose-section{
-  margin: 24px 0px;
-}
-.card-one{
-  gap: 16px;
-  flex-direction: column;
-}
+  /* Why Choose Us sec start */
+  .chose-section{
+    margin: 24px 0px;
+  }
+  .card-one{
+    gap: 16px;
+    flex-direction: column;
+  }
+  .chose-section h3{
+    font-size: 1.2rem; 
+    margin: 16px 0px;
+  }
+  .chose-section p{
+    font-size: 14px;
+  }
+  .card3{
+    width: 100%;
+  }
+  /* Why Choose Us sec end */
 
-.chose-section h3{
-  font-size: 1.2rem; 
-  margin: 16px 0px;
-}
-.chose-section p{
-  font-size: 14px;
-}
-.card3{
-  width: 100%;
-}
+  /* Deal & Discounts section start */
+  .discount-section{
+    width: 100%;
+    height: 600px;
+  }
+  .discount-section img{
+    width: 100%;
+    height: 100%;
+  }
+  .discount-content{
+    max-width: 100%;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+  }
+  .discount-content h3{
+    font-size: 18px;
+    margin: 10px 0px;
+  }
+  .discount-content p{
+    margin: 10px 0px;
+    font-size: 16px;
+  }
+  .pricce{
+    color: #FF5400;
+    margin:24px 0px;
+  }
+  .dynamic-icon{
+    gap: 2px;
+  }
+  /* Deal & Discounts section end */
 
-/* Deal & Discounts section start */
-.discount-section{
-  width: 100%;
-  height: 600px;
-}
-.discount-section img{
-  width: 100%;
-  height: 100%;
-}
+  /* Deal & Discounts section start */
+  .image-card-area{
+    width: 100%;
+    height: 800px;
+    border: 2px solid red;
+  }
+  .image-card-area img{
+    width: 100%;
+    height: 100%;
+  }
+  .image-card{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;  
+    width: 50%;
+  }
+  .dinamic-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .dynamic-icon{
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    align-items: center;
+  }
+  .dynamic-icon i{
+    color: #FF5400;
+    font-size: 20px;
+  }
+  .pricce{
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin: 20px 0px;
+  } 
+  /* Deal & Discounts section end */
 
-.discount-content{
-  max-width: 100%;
-  right: 20px;
-  bottom: 20px;
-  left: 20px;
-}
+  /* video section start */
+  .video-sec{
+    margin: 20px 0px;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .video-content-area{
+    width: 100%;
+  }
+  .video-area{
+    width: 100%;
+    height: 300px;
+  }
+  .video-area iframe{
+    width: 100%;
+    height: 100%;
+  }
+  .video-content-area h2{
+    font-size: 1.50rem;
+    width: 65%;
+    margin: 16px 0px;
+  }
+  .video-content-area p{
+    margin: 0;
+  }
+  .video-content-area ul li{
+    font-size: 0.85rem;
+    text-align: justify;
+    margin: 10px;
+    margin-left: 20px;
+  }
+  /* video section end */
 
-.discount-content h3{
-  font-size: 18px;
-  margin: 10px 0px;
-}
-.discount-content p{
-  margin: 10px 0px;
-  font-size: 16px;
-}
+  /* newsletter section start */
+  .newsletter{
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  .sub-image-area, .sebscribe-area{
+    width: 100%;
+  }
+  .sebscribe-area{
+    padding: 20px;
+  }
+  .sebscribe-area h2{
+    margin: 10px 0px;
+    color: #000;
+  }
+  .sebscribe-area {
+    padding: 15px;
+  }
+  /* newsletter section end */
 
-.pricce{
-  color: #FF5400;
-  margin:24px 0px;
+  /* footer section start */
+  .footer-wrapper{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer-wrapper p{
+    margin: 10px 0px;
+  }
+  .solical-area{
+    gap: 10px;
+  }
+  .solical-area i{
+    margin-top: 10px;
+  }
+  .footer-wrapper hr {
+    margin: 20px 0px;
+  }
+  .footer-container{
+    padding: 33px 0px;
+  }
+  /* footer section end */
 }
-.dynamic-icon{
-  gap: 2px;
-}
-/* Deal & Discounts section start */
-.image-card-area{
-  width: 100%;
-  height: 800px;
-  border: 2px solid red;
-}
-.image-card-area img{
-  width: 100%;
-  height: 100%;
-}
-.image-card{
-  position: absolute;
-  bottom: 20px;
-  right: 10px;  
-  width: 50%;
-}
+/*------------------------------ media query for large and medium devices section end------------------------------ */
 
-.image-card{
-
-}
-.dinamic-section{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.dynamic-icon{
-  display: flex;
-  justify-content: start;
-  gap: 5px;
-  align-items: center;
-}
-.dynamic-icon i{
-  color: #FF5400;
-  font-size: 20px;
-}
-
-.pricce{
-  color: #FF5400;
-  font-size: 1.25rem;
-  font-weight: 800;
-  margin: 20px 0px;
-} 
-
-/* Deal & Discounts section end */
-
-/* video section start */
-
-.video-sec{
-  margin: 20px 0px;
-  flex-direction: column;
-  gap: 16px;
-}
-.video-content-area{
-  width: 100%;
-}
-.video-area{
-  width: 100%;
-  height: 300px;
-}
-
-.video-area iframe{
-  width: 100%;
-  height: 100%;
-}
-.video-content-area h2{
-  font-size: 1.50rem;
-  width: 65%;
-  margin: 16px 0px;
-}
-.video-content-area p{
-  margin: 0;
-}
-.video-content-area ul li{
-  font-size: 0.85rem;
-  text-align: justify;
-  margin: 10px;
-  margin-left: 20px;
-}
-/* video section end */
-
-/* newsletter section start */
-.newsletter{
-  flex-direction: column;
-  gap: 16px;
-  margin-bottom: 20px;
-}
-.sub-image-area, .sebscribe-area{
-  width: 100%;
-}
-.sebscribe-area{
-  padding: 20px;
-}
-.sebscribe-area h2{
-  margin: 10px 0px;
-  color: #000;
-}
-.sebscribe-area {
-  padding: 15px;
-}
-
-/* newsletter section end */
-
-/* footer section start */
-.footer-wrapper{
-  width: 100%;
-  margin: 0 auto;
-}
-
-.footer-wrapper p{
-  margin: 10px 0px;
-}
-.solical-area{
-  gap: 10px;
-}
-.solical-area i{
-  margin-top: 10px;
-}
-
-.footer-wrapper hr {
-  margin: 20px 0px;
-}
-.footer-container{
-  padding: 33px 0px;
-}
-
-/* footer section end */
-
-}
-
-
-
-
-
-/* small devices (desktops, 992px and up) */
-
+/*------------------------------ media query for small devices section start------------------------------ */
+/* small devices (Mobile, 600px and down) */
 @media screen and (max-width: 600px) {
+
   header {
     padding: 20px;
   }
@@ -1003,11 +986,9 @@ hr {
     display: initial;
   }
   /* ************************* */
-
   .logo h2 {
     font-size: 21px;
   }
-
   header .navbar {
     position: absolute;
     top: 100%;
@@ -1017,7 +998,6 @@ hr {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     display: none;
   }
-
   header .navbar ul li {
     width: 100%;
   }
@@ -1025,7 +1005,6 @@ hr {
     position: relative;
     width: 100%;
   }
-
   header .navbar ul li ul li {
     background: #eee;
   }
@@ -1037,14 +1016,12 @@ hr {
     display: initial;
   }
 
-  /* banner section */
-
+  /* banner section start */
   .banner-section h2 {
     font-size: 25px;
     margin-bottom: 8px;
     padding-top: 32px;
   }
-
   .banner-section p{
     color: #fff;
     font
@@ -1056,17 +1033,14 @@ hr {
     padding: 16px;
     align-items: center;
   }
-
   .search-area, .type, .search-bar{
     width: 100%;
   }
-
   .input-box{
     width: 100%;
     padding: 16px;
     margin: 0 auto;    
   }
-
   .search-bar{
     width: 100%;
     padding: 16px; 
@@ -1074,8 +1048,9 @@ hr {
     justify-content: center;
     gap: 5px;
   }
+  /* banner section end */
 
-  /* popular section */
+  /* popular section start */
   .popular-sec{
     margin-top: 20px;
     flex-direction: column;
@@ -1093,13 +1068,12 @@ hr {
     font-size: 0.85rem;
     text-align: justify;
   }
+  /* popular section end */
 
-  /* destination section*/
-
+  /* destination section start*/
   .destination-section{
     margin-top: 24px;
   }
-
   .heading-two{
     color: #131318;
     font-size: 1.5rem;
@@ -1112,200 +1086,187 @@ hr {
     width: 80%;
     margin: 20px auto;
   }
-
   .destination-image-area{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: 20px;
-  }
-  
+  }  
   .area1, .area2, .area3, .area4, .area5, .area6, .area7 {
     grid-column: 1/-1;
     grid-row: auto;
   }
+  /* destination section end*/
 
-/* Why Choose Us sec */
-.chose-section{
-  margin: 24px 0px;
-}
-.card-one{
-  gap: 16px;
-  flex-direction: column;
-}
+  /* Why Choose Us sec start */
+  .chose-section{
+    margin: 24px 0px;
+  }
+  .card-one{
+    gap: 16px;
+    flex-direction: column;
+  }
 
-.chose-section h3{
-  font-size: 1.2rem; 
-  margin: 16px 0px;
-}
-.chose-section p{
-  font-size: 14px;
-}
-.card3{
-  width: 100%;
-}
+  .chose-section h3{
+    font-size: 1.2rem; 
+    margin: 16px 0px;
+  }
+  .chose-section p{
+    font-size: 14px;
+  }
+  .card3{
+    width: 100%;
+  }
+  /* Why Choose Us sec end */
 
-/* Deal & Discounts section start */
-.discount-section{
-  width: 100%;
-  height: 600px;
-}
-.discount-section img{
-  width: 100%;
-  height: 100%;
-}
+  /* Deal & Discounts section start */
+  .discount-section{
+    width: 100%;
+    height: 600px;
+  }
+  .discount-section img{
+    width: 100%;
+    height: 100%;
+  }
+  .discount-content{
+    max-width: 100%;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+  }
+  .discount-content h3{
+    font-size: 18px;
+    margin: 10px 0px;
+  }
+  .discount-content p{
+    margin: 10px 0px;
+    font-size: 16px;
+  }
+  .pricce{
+    color: #FF5400;
+    margin:24px 0px;
+  }
+  .dynamic-icon{
+    gap: 2px;
+  }
+  /* Deal & Discounts section end */
 
-.discount-content{
-  max-width: 100%;
-  right: 20px;
-  bottom: 20px;
-  left: 20px;
-}
+  /* Deal & Discounts section start */
+  .image-card-area{
+    width: 100%;
+    height: 800px;
+    border: 2px solid red;
+  }
+  .image-card-area img{
+    width: 100%;
+    height: 100%;
+  }
+  .image-card{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;  
+    width: 50%;
+  }
+  .dinamic-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .dynamic-icon{
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    align-items: center;
+  }
+  .dynamic-icon i{
+    color: #FF5400;
+    font-size: 20px;
+  }
+  .pricce{
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin: 20px 0px;
+  } 
+  /* Deal & Discounts section end */
 
-.discount-content h3{
-  font-size: 18px;
-  margin: 10px 0px;
-}
-.discount-content p{
-  margin: 10px 0px;
-  font-size: 16px;
-}
+  /* video section start */
+  .video-sec{
+    margin: 20px 0px;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .video-content-area{
+    width: 100%;
+  }
+  .video-area{
+    width: 100%;
+    height: 300px;
+  }
+  .video-area iframe{
+    width: 100%;
+    height: 100%;
+  }
+  .video-content-area h2{
+    font-size: 1.50rem;
+    width: 65%;
+    margin: 16px 0px;
+  }
+  .video-content-area p{
+    margin: 0;
+  }
+  .video-content-area ul li{
+    font-size: 0.85rem;
+    text-align: justify;
+    margin: 10px;
+    margin-left: 20px;
+  }
+  /* video section end */
 
-.pricce{
-  color: #FF5400;
-  margin:24px 0px;
-}
-.dynamic-icon{
-  gap: 2px;
-}
-/* Deal & Discounts section start */
-.image-card-area{
-  width: 100%;
-  height: 800px;
-  border: 2px solid red;
-}
-.image-card-area img{
-  width: 100%;
-  height: 100%;
-}
-.image-card{
-  position: absolute;
-  bottom: 20px;
-  right: 10px;  
-  width: 50%;
-}
+  /* newsletter section start */
+  .newsletter{
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  .sub-image-area, .sebscribe-area{
+    width: 100%;
+  }
+  .sebscribe-area{
+    padding: 20px;
+  }
+  .sebscribe-area h2{
+    margin: 10px 0px;
+    color: #000;
+  }
+  .sebscribe-area {
+    padding: 15px;
+  }
+  /* newsletter section end */
 
-.image-card{
+  /* footer section start */
+  .footer-wrapper{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer-wrapper p{
+    margin: 10px 0px;
+  }
+  .solical-area{
+    gap: 10px;
+  }
+  .solical-area i{
+    margin-top: 10px;
+  }
+  .footer-wrapper hr {
+    margin: 20px 0px;
+  }
+  .footer-container{
+    padding: 33px 0px;
+  }
+  /* footer section end */
+}
+/*------------------------------ media query for small devices section end------------------------------ */
 
-}
-.dinamic-section{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.dynamic-icon{
-  display: flex;
-  justify-content: start;
-  gap: 5px;
-  align-items: center;
-}
-.dynamic-icon i{
-  color: #FF5400;
-  font-size: 20px;
-}
-
-.pricce{
-  color: #FF5400;
-  font-size: 1.25rem;
-  font-weight: 800;
-  margin: 20px 0px;
-} 
-
-/* Deal & Discounts section end */
-
-/* video section start */
-
-.video-sec{
-  margin: 20px 0px;
-  flex-direction: column;
-  gap: 16px;
-}
-.video-content-area{
-  width: 100%;
-}
-.video-area{
-  width: 100%;
-  height: 300px;
-}
-
-.video-area iframe{
-  width: 100%;
-  height: 100%;
-}
-.video-content-area h2{
-  font-size: 1.50rem;
-  width: 65%;
-  margin: 16px 0px;
-}
-.video-content-area p{
-  margin: 0;
-}
-.video-content-area ul li{
-  font-size: 0.85rem;
-  text-align: justify;
-  margin: 10px;
-  margin-left: 20px;
-}
-/* video section end */
-
-/* newsletter section start */
-.newsletter{
-  flex-direction: column;
-  gap: 16px;
-  margin-bottom: 20px;
-}
-.sub-image-area, .sebscribe-area{
-  width: 100%;
-}
-.sebscribe-area{
-  padding: 20px;
-}
-.sebscribe-area h2{
-  margin: 10px 0px;
-  color: #000;
-}
-.sebscribe-area {
-  padding: 15px;
-}
-
-/* newsletter section end */
-
-/* footer section start */
-.footer-wrapper{
-  width: 100%;
-  margin: 0 auto;
-}
-
-.footer-wrapper p{
-  margin: 10px 0px;
-}
-.solical-area{
-  gap: 10px;
-}
-.solical-area i{
-  margin-top: 10px;
-}
-
-.footer-wrapper hr {
-  margin: 20px 0px;
-}
-.footer-container{
-  padding: 33px 0px;
-}
-
-/* footer section end */
-
-}
-/* Mobile menu area end */
 
 /* 💛💛💚💗Thank you very much sir for viewing my assignment💗💚💛💛 */
